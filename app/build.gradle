@@ -186,18 +186,18 @@ dependencies {
     compile project(':libcocos2dx')
 
     //core
-    compile(name: 'UPAdsSdk_CocosJs_3.0.07.4_dex', ext: 'aar')
+    compile(name: 'UPAdsSdk_CocosJs_3.0.07.6_dex', ext: 'aar')
 
     //networks
     compile(name: 'adcolony_ads', ext: 'aar')
     compile(name: 'applovin_ads', ext: 'aar')
     compile(name: 'chartboost_ads', ext: 'aar')
-    compile(name: 'facebook_ads', ext: 'aar')
-    compile(name: 'facebook_exo_player', ext: 'aar')
-    compile(name: 'ironsource_ads', ext: 'aar')
     compile(name: 'unity_ads', ext: 'aar')
     compile(name: 'vungle_ads', ext: 'aar')
-    compile(name:'playable_ads',ext:'aar')
+
+    //如果您的游戏如果不包含13岁，可以加上facebook
+    compile(name: 'facebook_ads', ext: 'aar')
+    compile(name: 'facebook_exo_player', ext: 'aar')
 
     //support-libs
     compile(name: 'gson-2.7', ext: 'jar')
@@ -208,7 +208,8 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:26.1.0'
     compile 'com.android.support:customtabs:26.1.0'
     compile 'com.android.support:cardview-v7:26.1.0'
-//    //admob
+
+    //admob
     compile(name: 'play-services-ads-17.2.0', ext: 'aar')
     compile(name: 'play-services-ads-base-17.2.0', ext: 'aar')
     compile(name: 'play-services-ads-identifier-16.0.0', ext: 'aar')
