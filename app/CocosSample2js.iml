@@ -442,7 +442,6 @@
     <orderEntry type="library" exported="" name="android.arch.lifecycle:common:1.0.0@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="com.android.support:multidex-instrumentation-1.0.1" level="project" />
     <orderEntry type="library" exported="" name=":gson-2.7:@jar" level="project" />
-    <orderEntry type="library" exported="" name="playable_ads:@aar" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-fragment-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-vector-drawable-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="mintegral_ads:@aar" level="project" />

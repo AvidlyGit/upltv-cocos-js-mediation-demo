@@ -192,12 +192,10 @@ dependencies {
     compile(name: 'gson-2.7', ext: 'jar')
     compile(name: 'glide-3.7.0', ext: 'jar')
     compile(name: 'android-query-full.0.26.7',ext: 'jar')
-    compile(name:'playable_ads',ext:'aar')
     //inland
     compile(name: 'gdt_ads', ext: 'aar')
     compile(name: 'mintegral_ads', ext: 'aar')
     compile(name: 'oneway_ads', ext: 'aar')
-    compile(name: 'playable_ads', ext: 'aar')
     compile(name: 'toutiao_ads', ext: 'aar')
     compile(name: 'vungle_ads', ext: 'aar')
     compile(name: 'android-gif-drawable', ext: 'aar')
